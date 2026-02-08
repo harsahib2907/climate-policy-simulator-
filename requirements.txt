@@ -1,0 +1,27 @@
+# Flask Backend
+Flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# AI - Text Generation
+google-generativeai==0.3.2
+
+# AI - Image Generation (Stable Diffusion)
+diffusers==0.25.0
+transformers==4.36.2
+accelerate==0.25.0
+safetensors==0.4.1
+
+# Image Processing
+Pillow==10.1.0
+
+# Deep Learning Framework
+torch==2.1.2
+torchvision==0.16.2
+
+# Optional: For faster inference
+xformers==0.0.23.post1  # Only for CUDA GPUs
+
+# Utilities
+numpy==1.26.2
+requests==2.31.0
